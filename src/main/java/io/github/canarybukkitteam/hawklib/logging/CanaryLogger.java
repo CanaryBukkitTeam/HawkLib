@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright 2015 CanaryBukkit Team <https://github.com/CanaryBukkitTeam>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

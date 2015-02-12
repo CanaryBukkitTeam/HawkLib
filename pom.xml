@@ -66,11 +66,11 @@
     <distributionManagement>
         <repository>
             <id>lex-releases</id>
-            <url>file:///Users/jamie/Repo</url>
+            <url>file://${env.REPO_GLOBAL}</url>
         </repository>
         <snapshotRepository>
             <id>lex-snapshots</id>
-            <url>file:///Users/jamie/Repo</url>
+            <url>file://${env.REPO_GLOBAL}</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
