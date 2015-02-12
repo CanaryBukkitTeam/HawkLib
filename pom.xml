@@ -42,6 +42,10 @@
             <id>vi-repo</id>
             <url>http://repo.visualillusionsent.net/repository/public</url>
         </repository>
+        <repository>
+            <id>lex-repo</id>
+            <url>http://lexware.github.io/Repo</url>
+        </repository>
     </repositories>
     
     <dependencies>
@@ -50,6 +54,12 @@
             <artifactId>CanaryLib</artifactId>
             <version>1.1.2</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.lexware</groupId>
+            <artifactId>unolib</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
